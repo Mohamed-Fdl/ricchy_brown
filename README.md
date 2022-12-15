@@ -2,7 +2,7 @@
 In this node project I show you how I made a CLI tool that scrap datas from a movies website (https://www.ticketac.com) , store them in a CSV file & print it to cli.
 Command line : npx scrap-movies
 
-## NPX FDL-SCRAP-MOVIES
+## NPX SCRAP-MOVIES
 I use the package named 'inquirer' to have interactions with user in CLI.I get the category choosen by user & the name of the output file .With the category I scrap data wanted by user.After that datas are printed in a table at cli and store in csv file
 
 ## Configuration file : config.js

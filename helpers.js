@@ -19,7 +19,7 @@ function getDirName() {
 
 function getFilesInsideOutputDir() {
 
-    const directoryPath = path.join(getDirName(), './' + config.outputDir);
+    const directoryPath = path.join(getDirName(), '../../' + config.outputDir);
 
     return fs.readdirSync(directoryPath, function(err, files) {
 
@@ -99,15 +99,9 @@ function getUrlCategory(category) {
 }
 
 function getCsvFilePath(name) {
-
-    //getDirName().split('/').pop().split('/').pop()
     return `../../${config.outputDir}/${name}`
-        //return `${getDirName()}/${config.outputDir}/${name}`
-        //return `../../${name}`
-
 }
 
-console.log(getCsvFilePath('lol.csv'));
 
 function insertHeaders(arr) {
     return [].concat([config.csvHeaders], arr);

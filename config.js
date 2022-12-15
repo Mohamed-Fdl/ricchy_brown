@@ -22,11 +22,4 @@ export default {
         "Rating",
         "Reviews"
     ],
-
-    "mail": {
-        "host": "server266.web-hosting.com",
-        "port": 587,
-        "username": "scrap@mohamed-fadel.com",
-        "password": "s9ckdSPzZpHu77D"
-    }
 }

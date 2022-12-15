@@ -14,6 +14,7 @@ function createOutputDirectory() {
             fs.mkdirSync('../../' + config.outputDir);
         }
     } catch (err) {
+        console.log('jhgf')
         console.error(err);
     }
 }

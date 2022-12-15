@@ -10,11 +10,10 @@ import helpers from './helpers.js'
 function createOutputDirectory() {
 
     try {
-        if (!fs.existsSync('../../' + config.outputDir)) {
-            fs.mkdirSync('../../' + config.outputDir);
+        if (!fs.existsSync('./' + config.outputDir)) {
+            fs.mkdirSync('./' + config.outputDir);
         }
     } catch (err) {
-        console.log('jhgf')
         console.error(err);
     }
 }

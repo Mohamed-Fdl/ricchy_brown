@@ -18,7 +18,6 @@ function createOutputDirectory() {
     }
 }
 
-
 function getAnswers() {
 
     const filesInsideOutputDir = helpers.getFilesInsideOutputDir()

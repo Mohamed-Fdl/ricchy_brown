@@ -19,7 +19,7 @@ function getDirName() {
 
 function getFilesInsideOutputDir() {
 
-    const directoryPath = path.join(getDirName(), './' + config.outputDir);
+    const directoryPath = path.join('./' + config.outputDir);
 
     return fs.readdirSync(directoryPath, function(err, files) {
 
@@ -99,7 +99,7 @@ function getUrlCategory(category) {
 }
 
 function getCsvFilePath(name) {
-    return `${getDirName()}/${config.outputDir}/${name}`
+    return `./${config.outputDir}/${name}`
 }
 
 

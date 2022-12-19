@@ -2,3 +2,4 @@ node_modules
 *.csv
 tasks.txt
 scraped-movies-output-directory
+package-lock.json
